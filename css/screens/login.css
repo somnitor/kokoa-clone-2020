@@ -1,16 +1,18 @@
-.Welcome-header {
+.welcome-header {
   margin: 90px 0px;
   text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.Welcome-header__title {
-  margin-bottom: 20px;
+
+.welcome-header__title {
+  margin-bottom: 40px;
   font-size: 25px;
 }
-.Welcome-header__text {
-  width: 50%;
+
+.welcome-header__text {
+  width: 60%;
   opacity: 0.7;
 }
 
@@ -19,14 +21,14 @@
   flex-direction: column;
   margin: 0px 30px;
 }
+
 #login-form input {
   border: none;
   padding: 15px 0px;
   font-size: 18px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   margin-bottom: 25px;
-  transition: border-color 0.3s ease-in-out;
 }
+
 #login-form input:not([type="submit"]) {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   transition: border-color 0.3s ease-in-out;
@@ -38,7 +40,6 @@
 
 #login-form input:focus {
   border-color: var(--yellow);
-  transition: border-color 0.3s ease-in-out;
 }
 
 #login-form input[type="submit"] {
@@ -50,7 +51,5 @@
 
 #login-form a {
   text-align: center;
-  text-decoration: none;
-  color: inherit;
   font-size: 13px;
 }
