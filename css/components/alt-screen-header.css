@@ -32,3 +32,8 @@
 .alt-header__column span:last-child {
   margin-left: 20px;
 }
+
+.alt-header i:hover {
+  cursor: pointer;
+  font-size: 40px;
+}
