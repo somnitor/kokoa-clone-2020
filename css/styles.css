@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sniglet&display=swap");
 @import "reset.css";
 @import "variables.css";
 
@@ -11,6 +11,7 @@
 @import "components/badge.css";
 @import "components/icon-row.css";
 @import "components/no-mobile.css";
+@import "components/icon-menu.css";
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
@@ -21,7 +22,8 @@
 
 body {
   color: #2e363e;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Sniglet", cursive;
+  background-color: lightcyan;
 }
 
 .main-screen {
