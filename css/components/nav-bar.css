@@ -81,6 +81,15 @@
   animation: notificationAnimation 2s ease-in-out infinite;
 }
 
+.badge-2 {
+  position: absolute;
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  right: -10px;
+}
+
 @keyframes appearBtnAnimation {
   from {
     opacity: 0;
@@ -104,4 +113,8 @@
 }
 .nav__btn:last-child {
   animation-delay: 0.8s;
+}
+
+.nav__list i:hover {
+  animation: shaking 1s infinite;
 }
