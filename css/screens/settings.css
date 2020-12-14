@@ -16,3 +16,21 @@
 .settings__setting-column:last-child {
   opacity: 0.7;
 }
+
+.settings__setting:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  animation: icon-color 1s infintie;
+}
+
+.settings__setting:hover i {
+  animation: icon-color 1s infinite;
+}
+@keyframes icon-color {
+  form {
+    color: #2e363e;
+  }
+  to {
+    color: tomato;
+  }
+}
